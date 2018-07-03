@@ -1,0 +1,26 @@
+<ion-header>
+  <ion-navbar>
+    <button ion-button menuToggle>
+      <ion-icon name="menu"></ion-icon>
+    </button>
+    <ion-title>Enunciado</ion-title>
+  </ion-navbar>
+</ion-header>
+
+<ion-content padding>
+<p>A una panadería llegan clientes con una distribución exponencial negativa con una media de 3
+  minutos entre llegadas. Esta panadería cuenta con dos empleados, cualquiera de los cuales demora
+  entre 0,5 y 1,5 minutos (distribución uniforme) en atender a un cliente, independientemente de
+  cuántas cosas compre el cliente (compran entre 1 y 3 productos).
+  La panadería posee un horno que genera productos una vez que los mismos están cocinados. El
+  horno se enciende cada 45 minutos o cuando la panadería se queda sin stock de productos. La
+  cantidad de productos a cocinar, depende del stock de la panadería al momento de encender el
+  horno. Si hay productos para vender, se cargan 30 unidades para cocinar (la cocción demora entre
+  18 y 22 minutos uniformemente distribuidos). En cambio si no hay stock, se cargan 45 unidades, (la
+  cocción demora entre 25 y 30 minutos uniformemente distribuidos).
+  Cuando un cliente llega, si no hay productos para vender en los próximos 5 minutos, se retira. Si
+  estaba esperando su turno, y se terminan los productos, se retira. Si le toca su turno, y quedan
+  menos productos de la cantidad que pensaba comprar, compra lo que queda.
+  Se desea saber el porcentaje de clientes que se pierden por no haber existencia de productos.
+  Cantidad de productos entregados en promedio por hora.</p>
+</ion-content>
